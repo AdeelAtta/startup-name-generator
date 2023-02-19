@@ -1,0 +1,27 @@
+.result-box{
+    min-width: 300px;
+    width: auto;
+    max-width: 1024px;
+    margin-top: 20px;
+    padding: 20px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.button{
+    width: fit-content;
+    height: fit-content;
+    min-width: 50px;
+    padding: 10px 20px ;
+    border-radius: 7px;
+    background: linear-gradient(90deg, rgb(49,206,251),rgb(200,57,254));
+    border: none;
+    color: #fff4f3;
+}
